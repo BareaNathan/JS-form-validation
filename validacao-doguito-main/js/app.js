@@ -1,6 +1,6 @@
-import { valida } from "./validacao";
+import { valida } from "./validacao.js";
 
-const inputs = document.querySelector('input')
+const inputs = document.querySelectorAll('input')
 
 inputs.forEach(input => {
     input.addEventListener('blur', (evento) => {
