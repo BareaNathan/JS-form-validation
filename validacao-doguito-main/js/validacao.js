@@ -17,7 +17,6 @@ export function valida(input){
 const mensagensDeErro = {
     nome: {
         valueMissing: 'O campo nome não pode estar vazio.'
-
     },
     email:{
         valueMissing: 'O campo de email não pode estar vazio.',
@@ -49,7 +48,9 @@ const mensagensDeErro = {
     estado: {
         valueMissing: 'O campo estado não pode estar vazio',
     },
-
+    preco:{
+        valueMissing: 'O campo preço não pode estar vazio.',
+    }
 }
 
 const validadores = {
